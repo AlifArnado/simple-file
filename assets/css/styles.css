@@ -29,8 +29,8 @@ body {
 
 .filemanager {
 	width: 95%;
-	max-width:1340px;
-	position: relative;
+	/*max-width:1340px;
+	position: relative; */
 	/*margin: 100px auto 50px;*/
 }
 
@@ -153,8 +153,8 @@ body {
 -------------------------*/
 
 .filemanager .data {
-	margin-top: 60px;
-	z-index: -3;
+	/*margin-top: 60px;*/
+	/*z-index: -3;*/
 }
 
 .filemanager .data.animated {
@@ -164,15 +164,15 @@ body {
 
 .filemanager .data li {
 	border-radius: 3px;
-	background-color: #373743;
-	width: 307px;
-	height: 118px;
+	/*background-color: #373743;*/
+	width: 223px;
+	height: 100px;
 	list-style-type: none;
-	margin: 10px;
+	margin: 3px;
 	display: inline-block;
 	position: relative;
 	overflow: hidden;
-	padding: 0.3em;
+	padding: 0.2em;
 	z-index: 1;
 	cursor: pointer;
 	box-sizing: border-box;
@@ -193,7 +193,7 @@ body {
 }
 
 .filemanager .data li .name {
-	color: #ffffff;
+	color: #000; /*color list name*/
 	font-size: 15px;
 	font-weight: 700;
 	line-height: 20px;
@@ -207,7 +207,7 @@ body {
 }
 
 .filemanager .data li .details {
-	color: #b6c1c9;
+	color: #000; /*color list detail*/
 	font-size: 13px;
 	font-weight: 400;
 	width: 55px;
