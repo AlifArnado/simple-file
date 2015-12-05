@@ -61,8 +61,8 @@
                             } else if($page == "") {
                                 // echo "Output Home";
                                 include 'include/home.php';
-                            }  else {
-
+                            }  else if("filemanager/files"){
+                                echo "404 Error";
                             }
                          ?>
                   </div>

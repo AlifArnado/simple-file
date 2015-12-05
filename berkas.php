@@ -15,7 +15,7 @@
 
 	<div class="filemanager">
 		<!-- <div class="search"> -->
-			<input type="search" name="" id="input" class="form-control" value="" required="required" title="" placeholder="Find a file.." >
+			<input type="search" name="" id="input" class="form-control" placeholder="Find a file.." >
 			<!-- <input type="search" placeholder="Find a file.." /> -->
 		<!-- </div> -->
 		<!-- <div class="breadcrumbs"></div> -->
