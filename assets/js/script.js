@@ -35,7 +35,7 @@ $(function(){
 			var search = $(this);
 
 			search.find('span').hide();
-			search.find('input[type=search]').show().focus();
+			search.find('input[type =search]').show().focus();
 
 		});
 
@@ -88,7 +88,7 @@ $(function(){
 			if(!search.val().trim().length) {
 
 				window.location.hash = encodeURIComponent(currentPath);
-				search.hide();
+				//search.hide();
 				search.parent().find('span').show();
 
 			}
